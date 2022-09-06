@@ -7,7 +7,10 @@
 [Live Demo]()
 
 ## Built With
-- HTML5, CSS3, ES6, Webpack, React
+- HTML5
+- CSS3
+- ES6
+- React
 
 ## Project Setup
 To get a local copy up and running follow these simple example steps.
