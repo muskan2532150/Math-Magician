@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
+import React from 'react';
 
-export class Header extends Component {
+export default class Header extends React.PureComponent {
   render() {
     return (
       <nav>
@@ -13,8 +13,6 @@ export class Header extends Component {
           <li>Quotes</li>
         </ul>
       </nav>
-    )
+    );
   }
 }
-
-export default Header
