@@ -1,0 +1,6 @@
+@mixin display($d,$fxd,$jc,$at) {
+  display: $d;
+  flex-direction: $fxd;
+  justify-content: $jc;
+  align-items: $at;
+}
