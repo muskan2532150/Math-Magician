@@ -1,7 +1,6 @@
 import anime from 'animejs/lib/anime.es';
 
-const animeH = () => {
-  const textWrapper = document.querySelector('.ml2');
+const animeH = (textWrapper) => {
   textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
   anime.timeline({ loop: true })

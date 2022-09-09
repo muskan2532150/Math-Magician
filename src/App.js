@@ -1,15 +1,18 @@
 import Calculator from './components/Calculator';
-// import Calculate from './components/logic/Calculate';
 import Header from './components/Header';
 import Home from './components/Home';
+import React, { Component } from 'react'
 
-function App() {
-  return (
-    <>
+export class App extends Component {
+  render() {
+    return (
+      <>
       <Header />
       <Home />
       <Calculator />
     </>
-  );
+    )
+  }
 }
+
 export default App;

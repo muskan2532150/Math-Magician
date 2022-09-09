@@ -1,12 +1,8 @@
-import React from 'react';
-//  import animeH from './Anime';
+import React, { Component } from 'react'
 
-function Header() {
-  // const textWrapper = document.querySelector('.ml2');
-  // console.log(textWrapper);
-  // animeH();
-  return (
-    <>
+export class Header extends Component {
+  render() {
+    return (
       <nav>
         <div className="heading">
           <h1 className="ml2">MATH MAGICIANS</h1>
@@ -17,8 +13,8 @@ function Header() {
           <li>Quotes</li>
         </ul>
       </nav>
-    </>
-  );
+    )
+  }
 }
 
-export default Header;
+export default Header
