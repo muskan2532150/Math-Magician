@@ -1,9 +1,9 @@
 import React from 'react';
 //  import animeH from './Anime';
 
-const Header = () => {
-  const textWrapper = document.querySelector('.ml2');
-  console.log(textWrapper);
+function Header() {
+  // const textWrapper = document.querySelector('.ml2');
+  // console.log(textWrapper);
   // animeH();
   return (
     <>
@@ -19,6 +19,6 @@ const Header = () => {
       </nav>
     </>
   );
-};
+}
 
 export default Header;
