@@ -1,7 +1,6 @@
-import React from 'react';
-
-const Home = () => (
-  <div id="Home">
+export default function Home() {
+  return (
+    <div id="Home">
     <p>
       What is a calculator? A calculator is a device that performs arithmetic operations on numbers.
       Basic calculators can do only addition, subtraction, multiplication and
@@ -24,6 +23,5 @@ const Home = () => (
     </p>
 
   </div>
-);
-
-export default Home;
+  )
+}

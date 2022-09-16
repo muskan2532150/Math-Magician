@@ -1,6 +1,15 @@
 #Home {
+  background-image: url('../images/calculator.jpg');
+     background-repeat: no-repeat;
+     background-size: auto;
+     background-attachment: fixed;
+     background-position-x: right;
+     background-position-y: bottom;
+     height: 75vh;
+}
+
+#Home {
   > p {
-    display: none;
     padding: 7vw 20vw 0 15vw;
     font-size: 1.5vw;
     font-weight: 600;

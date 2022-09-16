@@ -1,10 +1,14 @@
-import React from 'react';
-//  import animeH from './Anime';
+import { Link } from 'react-router-dom'
+import animeH from './Anime';
+import { useEffect } from 'react';
 
 function Header() {
-  // const textWrapper = document.querySelector('.ml2');
-  // console.log(textWrapper);
-  // animeH();
+
+  useEffect(() => {
+    const textWrapper = document.querySelector('.ml2');
+    animeH(textWrapper);
+  }, [])
+
   return (
     <>
       <nav>
@@ -12,9 +16,9 @@ function Header() {
           <h1 className="ml2">MATH MAGICIANS</h1>
         </div>
         <ul>
-          <li>Home</li>
-          <li>Calulator</li>
-          <li>Quotes</li>
+          <li> <Link to='/'> Home</Link></li>
+          <li><Link to='/calculator'>Calculator</Link></li>
+          <li><Link to='/quotes'>Quotes</Link></li>
         </ul>
       </nav>
     </>

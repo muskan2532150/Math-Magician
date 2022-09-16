@@ -1,12 +1,3 @@
-body {
-  background-image: url('../images/calculator.jpg');
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-attachment: fixed;
-  background-position-x: right;
-  background-position-y: bottom;
-}
-
 nav {
   @include display(flex,row, space-around, center);
 
@@ -22,10 +13,16 @@ nav {
     li {
       padding-right: 2vw;
 
-      &:hover {
-        padding-bottom: 0.5vw;
-        text-decoration: underline;
-      }
+     a {
+      text-decoration: none;
+
+     &:hover {
+      padding-bottom: 0.5vw;
+      text-decoration: underline;
+     }
+
+     }
+
     }
   }
 }
@@ -34,8 +31,3 @@ nav {
   font-size: 2vw;
   font-weight: 700;
 }
-
-// .heading .letter {
-//         display: inline-block;
-//         line-height: 1em;
-// }
