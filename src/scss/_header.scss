@@ -13,16 +13,14 @@ nav {
     li {
       padding-right: 2vw;
 
-     a {
-      text-decoration: none;
+      a {
+        text-decoration: none;
 
-     &:hover {
-      padding-bottom: 0.5vw;
-      text-decoration: underline;
-     }
-
-     }
-
+        &:hover {
+          padding-bottom: 0.5vw;
+          text-decoration: underline;
+        }
+      }
     }
   }
 }
