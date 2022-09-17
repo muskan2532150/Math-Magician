@@ -39,12 +39,21 @@ npm start
 
 ## Authors
 
+### Author 1
+
 👤 **Muskan Gupta**
 
 - GitHub: [@github](https://github.com/muskan2532150)
 - Twitter: [@twitter](muskan2532150)
 - Linkedin:[Username](https://www.linkedin.com/in/muskan-gupta-869165225/)
 
+###  Author 2
+
+👤 **Choice Osobor**
+
+- GitHub: [@githubhandle](https://github.com/techEmprez)
+- Twitter: [@twitterhandle](https://twitter.com/Suigeneriz_)
+- LinkedIn: [Choice Osobor](https://www.linkedin.com/in/choice-osobor/)
 
 ## 🤝 Contributing
 
