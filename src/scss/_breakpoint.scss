@@ -1,0 +1,45 @@
+@media screen and (max-width: 1214px) {
+.part-two{
+    width: 100%;
+}
+
+.text-show{
+    width: 96%;
+}
+
+#Home{
+    background-image: none;
+
+    p{
+        line-height: 1.8rem;
+    }
+}
+#calculate {
+    h5 {
+        font-size: 2rem;
+padding: 2vw 0 0 10vw;
+    }
+}
+}
+
+@media screen and (max-width:635px) {
+    .text-show{
+        width: 92%;
+    }
+
+    #Home {
+        background-image: none;
+        
+        > p{
+font-size: 2.9vw;
+line-height: 1.5rem;
+        }
+    }
+
+    .quotes{
+        p,h4{
+            font-size: 4vw;
+        }
+        
+    }
+}
