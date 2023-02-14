@@ -150,4 +150,11 @@ nav ul li a:hover {
   .quotes p, .quotes h4 {
     font-size: 4vw;
   }
+}
+@media screen and (max-width: 470px) {
+  #calculate {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
 }/*# sourceMappingURL=main.css.map */
